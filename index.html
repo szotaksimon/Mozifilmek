@@ -5,29 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Mozfilmek</title>
 </head>
 <body>
 
+    <div id="bevitel">
+        <p>Adja meg a film adatait.</p>
         <input type="text" name="nev" id="nev" placeholder="Név"><br>
         <input type="text" name="rendezo" id="rendezo" placeholder="Rendező"><br>
         <input type="text" name="kiad_ev" id="kiad_ev" placeholder="Kiadás éve"><br>
         <button onclick="hozzaAd()">Hozzáad</button>
         <button onclick="listazas()">Listázás</button>
-
-        <!--<table>
-            <tr>
-                <td id="tablazat1"></td>
-            </tr>
-            <tr>
-                <td id="tablazat2"></td>
-            </tr>
-            <tr>
-                <td id="tablazat3"></td>
-            </tr>
-        </table>
-    -->
-
+    </div>
     <div id="tablazat"></div>
+    
 </body>
 </html>
