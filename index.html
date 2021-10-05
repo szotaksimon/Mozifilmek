@@ -8,11 +8,24 @@
     <title>Mozfilmek</title>
 </head>
 <body>
-    <form>
+
         <input type="text" name="nev" id="nev" placeholder="Név"><br>
         <input type="text" name="rendezo" id="rendezo" placeholder="Rendező"><br>
         <input type="number" name="kiad_ev" id="kiad_ev" placeholder="Kiadás éve"><br>
-        <input type="submit" value="Hozzáad">
-    </form>
+        <button onclick="hozzaAd()">Hozzáad</button>
+        <button onclick="listazas()">Listázás</button>
+
+        <table>
+            <tr>
+                <td id="tablazat1"></td>
+            </tr>
+            <tr>
+                <td id="tablazat2"></td>
+            </tr>
+            <tr>
+                <td id="tablazat3"></td>
+            </tr>
+        </table>
+
 </body>
 </html>
