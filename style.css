@@ -1,0 +1,78 @@
+button{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    border: none;
+    box-shadow: 0 0  15px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+    background-color: rgba(219, 219, 219, 0.733);
+}
+button:hover{
+    background-color: rgba(255, 99, 71, 0.493);
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    border: none;
+    box-shadow: 0 0  15px 4px rgba(129, 108, 108, 0.2);
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+}
+input:hover{
+    background-color: rgba(235, 235, 235, 0.513);
+}
+#bevitel{
+    position: absolute;
+    min-width: 240px;
+    max-width: 320px;
+    width: 22vw;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+    text-align: center;
+}
+#bevitel p{
+    font-size: 1.2rem;
+}
+#tablazat{
+    position: absolute;
+    min-width: 240px;
+    max-width: 300px;
+    width: 22vw;
+    top: 33%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+}
+table{
+    margin: auto;
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+}
+th{
+    font-family: 'Courier New', monospace;
+    font-weight: 500;
+    padding: 10px;
+    width: 50px;
+}
+th:hover{
+    background-color: rgba(226, 226, 226, 0.151);
+}
+td{
+    background-color: rgba(250, 95, 34, 0.274);
+    border-radius: 6px;
+}
+td:hover{
+    background-color: rgba(250, 95, 34, 0.356);
+
+}
