@@ -5,7 +5,6 @@ class Film{
         this.rendezo = rendezo;
         this.kiad_ev = kiad_ev;
     }
-
 }
 
 let adatok = [];
@@ -21,6 +20,13 @@ function hozzaAd(){
     document.getElementById("nev").value = "";
     document.getElementById("rendezo").value = "";
     document.getElementById("kiad_ev").value = "";
+}
+
+function listazas(){
+
+    document.getElementById("tablazat1").innerHTML = adatok[0];
+    document.getElementById("tablazat2").innerHTML = adatok[1];
+    document.getElementById("tablazat3").innerHTML = adatok[2];
 
 
 }
