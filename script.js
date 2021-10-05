@@ -22,16 +22,16 @@ function hozzaAd(){
     document.getElementById("kiad_ev").value = "";
 }
 
+
 function listazas(){
-    let tabla = "<table>";
+    let tabla = "<table><tr><th>Név</th><th>Rendező</th><th>Kiadás éve</th></tr>";
     for (let i = 0;i < adatok.length; i++){
-        tabla += "<tr><td>Név: " + adatok[i].nev + "</td></tr>";
-        tabla += "<tr><td>Rendező: " + adatok[i].rendezo + "</td></tr>";
-        tabla += "<tr><td>Kiadás éve: " + adatok[i].kiad_ev + "</td></tr>";
+        tabla += "<tr><td>" + adatok[i].nev + "</td>";
+        tabla += "<td>" + adatok[i].rendezo + "</td>";
+        tabla += "<td>" + adatok[i].kiad_ev + "</td></tr>";
     }
     tabla += "</table>";
     document.getElementById("tablazat").innerHTML = tabla;
-    
     
 
 
